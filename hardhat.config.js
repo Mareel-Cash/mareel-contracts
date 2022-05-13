@@ -5,7 +5,7 @@ const network_id = 245022926;
 const deployerPrivateKey = 'fb35e6df7be3edbe21a9b72e261f81e789aaa81d3d0b749946d68c766d2524c6';
 
 module.exports = {
-  solidity: "0.8.4",
+  solidity: "0.7.0",
   defaultNetwork: 'neonlabs',
   networks: {
     neonlabs: {
