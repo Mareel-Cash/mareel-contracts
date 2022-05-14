@@ -13,8 +13,8 @@
 pragma solidity ^0.7.0;
 
 import "./Mareel.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
+import "./interfaces/IERC20.sol";
+import "./libraries/SafeERC20.sol";
 
 contract ERC20Mareel is Mareel {
     using SafeERC20 for IERC20;
